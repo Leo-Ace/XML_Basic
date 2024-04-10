@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="showData.xslt" type="text/xsl"?>
+<!-- <?xml-stylesheet href="sortByName.xslt" type="text/xsl"?> -->
+<!-- <?xml-stylesheet href="showAo.xslt" type="text/xsl"?> -->
+<!-- <?xml-stylesheet href="formatByPriceAndSize.xslt" type="text/xsl"?> -->
+<!-- <?xml-stylesheet href="formatByAmount.xslt" type="text/xsl"?> -->
+
+<DSSanpham xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Product.xsd">
+  <Sanpham>
+    <id>1</id>
+    <name>Áo sơ mi</name>
+    <category_id>1</category_id>
+    <description>Sơ mi cao cấp</description>
+    <amount>0</amount>
+    <price>1000000</price>
+    <size>M</size>
+    <image type="jpg">a.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>2</id>
+    <name>Quần bò</name>
+    <category_id>2</category_id>
+    <description>Quần bò rách</description>
+    <amount>200</amount>
+    <price>200000</price>
+    <size>L</size>
+    <image type="png">Anh.png</image>
+  </Sanpham>
+  <Sanpham>
+    <id>3</id>
+    <name>Quần âu</name>
+    <category_id>3</category_id>
+    <description>Quần Âu</description>
+    <amount>1000</amount>
+    <price>1000000</price>
+    <size>XL</size>
+    <image type="jpg">1.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>4</id>
+    <name>Quần ngố</name>
+    <category_id>4</category_id>
+    <description>Ngố tàu</description>
+    <amount>1</amount>
+    <price>100000000</price>
+    <size>XXL</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>5</id>
+    <name>Quần 5</name>
+    <category_id>5</category_id>
+    <description>Quần 5</description>
+    <amount>1</amount>
+    <price>100000000</price>
+    <size>XXL</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>6</id>
+    <name>Áo 6</name>
+    <category_id>4</category_id>
+    <description>Ngố tàu</description>
+    <amount>4</amount>
+    <price>100000000</price>
+    <size>XL</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>7</id>
+    <name>Áo 7</name>
+    <category_id>1</category_id>
+    <description>Ngố tàu</description>
+    <amount>1</amount>
+    <price>100</price>
+    <size>X</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>8</id>
+    <name>Quần 8</name>
+    <category_id>4</category_id>
+    <description>8 tàu</description>
+    <amount>0</amount>
+    <price>10000</price>
+    <size>XL</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>9</id>
+    <name>Quần 9</name>
+    <category_id>9</category_id>
+    <description>9 tàu</description>
+    <amount>1</amount>
+    <price>100</price>
+    <size>XXL</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>10</id>
+    <name>Áo 10</name>
+    <category_id>4</category_id>
+    <description>Ngố tàu</description>
+    <amount>1</amount>
+    <price>100</price>
+    <size>XXL</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>11</id>
+    <name>Áo 11</name>
+    <category_id>1</category_id>
+    <description>Ngố tàu</description>
+    <amount>111</amount>
+    <price>111</price>
+    <size>XXL</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>12</id>
+    <name>Quần 12</name>
+    <category_id>4</category_id>
+    <description>Ngố tàu</description>
+    <amount>1</amount>
+    <price>100</price>
+    <size>XXL</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>13</id>
+    <name>Quần 13</name>
+    <category_id>7</category_id>
+    <description>Ngố 13</description>
+    <amount>0</amount>
+    <price>100</price>
+    <size>XXL</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>14</id>
+    <name>Quần 14</name>
+    <category_id>4</category_id>
+    <description>Ngố tàu</description>
+    <amount>1</amount>
+    <price>100</price>
+    <size>XL</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>15</id>
+    <name>Quần 15</name>
+    <category_id>4</category_id>
+    <description>Ngố tàu</description>
+    <amount>1</amount>
+    <price>1022</price>
+    <size>L</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>16</id>
+    <name>Áo 16</name>
+    <category_id>4</category_id>
+    <description>Ngố 16</description>
+    <amount>0</amount>
+    <price>1002</price>
+    <size>XXL</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>17</id>
+    <name>Quần 17</name>
+    <category_id>4</category_id>
+    <description>Ngố tàu</description>
+    <amount>1</amount>
+    <price>1000</price>
+    <size>XXL</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>18</id>
+    <name>Quần 18</name>
+    <category_id>4</category_id>
+    <description>Ngố tàu</description>
+    <amount>1</amount>
+    <price>1000</price>
+    <size>X</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>19</id>
+    <name>Áo ngố</name>
+    <category_id>4</category_id>
+    <description>Ngố 19</description>
+    <amount>1</amount>
+    <price>1033</price>
+    <size>XXL</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+  <Sanpham>
+    <id>20</id>
+    <name>Quần 20</name>
+    <category_id>4</category_id>
+    <description>Ngố 20</description>
+    <amount>1</amount>
+    <price>10000</price>
+    <size>XXL</size>
+    <image type="jpg">Pro.jpg</image>
+  </Sanpham>
+</DSSanpham>

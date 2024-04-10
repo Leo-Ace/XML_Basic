@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="productNameType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="3"/>
+      <xs:maxLength value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="categoryIdType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="9"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="productDescriptionType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="128"/>
+      <xs:pattern value="[^!@#$%^*()_+|\]\[\}\{?&lt;&gt;&amp;]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="productAmountType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="9999"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="productPriceType">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="100"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="imageType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[^\\s]+\.(jpg|png)"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="productType">
+    <xs:sequence>
+      <xs:element name="id" type="xs:integer"/>
+      <xs:element name="name" type="productNameType"/>
+      <xs:element name="category_id" type="categoryIdType"/>
+      <xs:element name="description" type="productDescriptionType"/>
+      <xs:element name="amount" type="productAmountType"/>
+      <xs:element name="price" type="productPriceType"/>
+      <xs:element name="size"/>
+      <xs:element name="image">
+        <xs:complexType >
+          <xs:simpleContent>
+            <xs:extension base="imageType">
+              <xs:attribute name="type" type="xs:string"/>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="DSSanpham">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Sanpham" type="productType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+    <xs:unique name="uniqueProductId">
+      <xs:selector xpath="Sanpham" />
+      <xs:field xpath="id" />
+    </xs:unique>
+  </xs:element>
+
+</xs:schema>
